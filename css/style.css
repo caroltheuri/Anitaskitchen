@@ -1,0 +1,167 @@
+.header{
+  width:100%;
+  height:600px;
+
+}
+#logo{
+  margin:0 auto;
+  text-align: center;
+  width:50%
+  margin-left: 500px;
+  padding-top: 100px;
+}
+#party{
+  background-color:#F15A29;
+ width:105%;
+ padding-top:25px;
+ padding-bottom:25px;
+ text-align: center;
+}
+#happy{
+  width:105%;
+  padding-top:25px;
+  padding-bottom:25px;
+  background-color:grey;
+  text-align: center;
+}
+h2{
+  color: white;
+  text-align:center;
+  font-family: sans-serif;
+  padding-top: 100px;
+  padding-right: 10px;
+  margin-bottom: 50px;
+}
+.row-border{
+  margin:100px;
+  border:2px solid grey;
+  border-style: double;
+  padding:50px;
+  color: #F15A29;
+}
+.col-md-12-footer{
+  background-color: #F15A29;
+}
+#logfoot{
+margin-left: 550px;
+padding-top: 50px;
+}
+.footermenu{
+  text-align: center;
+  color: white;
+padding top:20px;
+padding-right: 70px;
+float:center;
+}
+.icons{
+  text-align:center;
+  padding-right: 30px;
+  margin:12px;
+  padding:30px;
+}
+.footermenus{
+text-align: center;
+color: white;
+}
+.footermenuss{
+text-align: center;
+color: white;
+}
+
+#breakfast{
+  background-image:url('../assets/foodtop/breakfast.jpg');
+  height:210px;
+  }
+#breakfast:hover{
+  opacity:0.5;
+  filter: alpha(opacity=50);
+  color:red;
+  }
+#lunch{
+  background-image:url('../assets/foodtop/lunch.jpg');
+  height:210px;
+}
+#lunch:hover{
+  opacity:0.6;
+  filter: alpha(opacity=50);
+  color:black;
+  }
+
+#dinner{
+  background-image:url('../assets/foodtop/dinner2.jpg');
+  height:210px;
+}
+#dinner:hover{
+  opacity:0.5;
+  filter: alpha(opacity=50);
+  color:black;
+  }
+
+#top{
+color:white;
+text-align: center;
+font-size: 30px;
+margin-top:70px;
+}
+#top:hover{
+  color:black;
+
+}
+.container-fastfoods{
+  margin-bottom: 50px;
+  margin-top:50px;
+  margin-left: 50px;
+  padding-left: 20px;
+}
+#food{
+  color: black;
+  padding-top: 2px;
+
+}
+#lorem{
+  font-size: 150%;
+  font-family: sans-serif;
+  }
+.gallery{
+  color: #F15A29;
+  }
+#drinks{
+  text-align: right;
+}
+#drink{
+  font-size: 150%;
+  font-family: sans-serif;
+  text-align: right;
+}
+.gallery2{
+  text-align:center;
+  color: #F15A29;
+}
+
+.container-tabs{
+  background-image:url('../assets/backgrounds/foodsBg.jpg');
+  height:450px;
+
+}
+#float{
+
+  height:100px;
+}
+.jumbotron{
+  padding-left: 100px;
+  margin-top: 70px;
+  padding-top: 30px;
+  padding-bottom: 270px;
+  padding-right: 150px;
+}
+.col-md-12-tomato{
+background-image:url('../assets/backgrounds/subscribe.jpg');
+height: 300px;
+}
+#sub{
+  color: white;
+  text-align: center;
+  font-size: 200%;
+  padding-bottom: 150px;
+  padding-top: 70px;
+}
