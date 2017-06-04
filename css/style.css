@@ -75,7 +75,8 @@ color: white;
 #breakfast:hover{
   opacity:0.5;
   filter: alpha(opacity=50);
-  color:red;
+
+
   }
 #lunch{
   background-image:url('../assets/foodtop/lunch.jpg');
@@ -84,7 +85,7 @@ color: white;
 #lunch:hover{
   opacity:0.6;
   filter: alpha(opacity=50);
-  color:black;
+
   }
 
 #dinner{
@@ -94,18 +95,19 @@ color: white;
 #dinner:hover{
   opacity:0.5;
   filter: alpha(opacity=50);
-  color:black;
+
   }
 
-#top{
+.top{
 color:white;
 text-align: center;
 font-size: 30px;
 margin-top:70px;
 }
-#top:hover{
+.top:hover{
   color:black;
-
+ font-weight: bolder;
+ opacity: 5;
 }
 .container-fastfoods{
   margin-bottom: 50px;
@@ -154,7 +156,7 @@ margin-top:70px;
   padding-bottom: 270px;
   padding-right: 150px;
 }
-.col-md-12-tomato{
+.row-tomato{
 background-image:url('../assets/backgrounds/subscribe.jpg');
 height: 300px;
 }
@@ -162,6 +164,26 @@ height: 300px;
   color: white;
   text-align: center;
   font-size: 200%;
-  padding-bottom: 150px;
-  padding-top: 70px;
+  padding-bottom: 0px;
+  padding-top: 50px;
+}
+.form-group{
+margin-left: 310px;
+margin-top: 2px;
+text-align: left;
+opacity: 0.5;
+}
+.form-control{
+    padding: 7px 190px;
+    text-align: left;
+    padding-left: 5px;
+}
+.btn-btn-default{
+  color: white;
+  background-color: #F15A29;
+  border: none;
+  padding: 6px 80px;
+}
+#email{
+  color: white;
 }
