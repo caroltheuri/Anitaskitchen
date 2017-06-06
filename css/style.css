@@ -3,6 +3,29 @@
   height:600px;
 
 }
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
 #logo{
   margin:0 auto;
   text-align: center;
@@ -24,7 +47,7 @@
   background-color:grey;
   text-align: center;
 }
-h2{
+.header h2{
   color: white;
   text-align:center;
   font-family: sans-serif;
@@ -33,26 +56,39 @@ h2{
   margin-bottom: 50px;
 }
 .row-border{
-  margin:100px;
+  margin:50px;
   border:2px solid grey;
   border-style: double;
   padding:50px;
   color: #F15A29;
+  height:300px;
 }
-.col-md-12-footer{
-  background-color: #F15A29;
-}
-#logfoot{
-margin-left: 550px;
-padding-top: 50px;
+#footer{
+background-color: #F15A29;
 }
 .footermenu{
   text-align: center;
   color: white;
-padding top:20px;
-padding-right: 70px;
-float:center;
 }
+.logos{
+  text-align: center;
+  padding-bottom: 20px;
+}
+#logfoot{
+margin-left: 180px;
+padding-top: 50px;
+}
+/*padding-bottom: 0px;*/
+/*margin-top: 40px;
+
+.footermenu{
+  text-align: center;
+  color: white;
+/*padding top:50px;
+padding-right: 40px;
+float:right;
+margin: 60px;*/
+/*}
 .icons{
   text-align:center;
   padding-right: 30px;
@@ -66,7 +102,7 @@ color: white;
 .footermenuss{
 text-align: center;
 color: white;
-}
+}*/
 
 #breakfast{
   background-image:url('../assets/foodtop/breakfast.jpg');
@@ -138,6 +174,7 @@ margin-top:70px;
 .gallery2{
   text-align:center;
   color: #F15A29;
+    border: #F15A29;
 }
 
 .container-tabs{
@@ -153,7 +190,7 @@ margin-top:70px;
   padding-left: 100px;
   margin-top: 70px;
   padding-top: 30px;
-  padding-bottom: 270px;
+  padding-bottom: 290px;
   padding-right: 150px;
 }
 .row-tomato{
@@ -186,4 +223,28 @@ opacity: 0.5;
 }
 #email{
   color: white;
+}
+.btn-btn-default-btn-lg{
+  border-color: #F15A29;
+  background-color: white;
+  padding: 10px 50px;
+  font-size: 120%;
+}
+
+#title{
+  color:#F15A29;
+  text-align: center;
+  font-size: 30px;
+}
+.row-customers{
+margin: 50px;
+height:250px;
+box-shadow: 10px 10px 10px 10px #888888;
+}
+#our{
+  border-right: 1px solid grey;
+  margin: 10px;
+}
+#menu{
+margin: 10px;
 }

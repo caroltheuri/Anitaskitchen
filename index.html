@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
     <title>Anita's kitchen</title>
 
   </head>
   <body>
       <div class="header" style=background-image:url('assets/backgrounds/landing.jpg')>
-      <div id="logo">
-      <img src="assets/logoBig.png" alt="logo" text-centre;>
-      </div>
+        <div id="logo">
+          <img src="assets/logoBig.png" alt="logo" text-centre;>
+        </div>
         <h2>We Provide The Best Food At<br> The Right Price</h2>
-
         <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-
       </div>
 
 
@@ -56,7 +55,7 @@
         </div>
     <div class="container-fastfoods">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" >
            <img src="assets/fastFood1.jpg" alt="fastfood1">
            <img src="assets/fastFood2.jpg" alt="fastfood2">
         </div>
@@ -72,7 +71,7 @@
              ipsum. Morbi vestibulum nulla enim, eu rutrum dui ornare quis.
           </p>
           <div class="btn-group" role="group" aria-label="Button">
-            <button type="button" class="btn btn-default btn-lg"><span class="gallery">View Gallery<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></span>
+            <button type="button" class="btn-btn-default-btn-lg"><span class="gallery">View Gallery<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></span>
 
             </button>
 
@@ -92,10 +91,10 @@
                  Suspendisse sit amet est eget nisi blandit facilisis placerat ac
                  ipsum. Morbi vestibulum nulla enim, eu rutrum dui ornare quis.</p>
               <div class="btn-group btn-group-left" role="group" aria-label="Button" >
-                <button type="button" class="btn btn-default btn-lg"><span class="gallery2">
+                <button type="button" class="btn-btn-default-btn-lg"><span class="gallery2">
                   View Gallery<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></span></div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" >
               <img src="assets/drink1.jpg" alt="drink1">
               <img src="assets/drink2.jpg" alt="drink2">
 
@@ -126,39 +125,49 @@
               </div>
 
             </div>
-
-
-
-  </nav>
+          </nav>
          </div>
 
      </div>
 
      </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-8">
-      <h2>Our Happy Customers</h2>
-        <p>George Richard</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies,
-        leo vel finibus elementum, tellus lorem molestie metus,
+  <div class="container">
+    <div class="row-customers">
+      <div class="col-md-1">
 
+      </div>
+        <div class="col-md-5" id="our" >
+          <h2 id="title" >Our Happy Customers</h2>
+          <h4 class="text-center">George Richard</h4>
+          <p>Great food!Menu is awesome, there foodsare not only great but also in the right price
+            I'll highly recommend them:)</p>
+          <div class="text-center">
+            <img src="assets/customers/p1.png" alt="customer1">
+            <img src="assets/customers/p2.png" alt="customer2">
+            <img src="assets/customers/p3.png" alt="customer3">
+          </div>
+          <br/>
+        </div>
+        <div class="col-md-5" id="menu">
+          <h2 id="title">About Menu</h2>
+          <p>We are a menu a little team of 7 members.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies,
+           leo vel finibus elementum, tellus lorem molestie metus, ut sagittis
+           justo augue et est. Aenean vestibulum sapien dapibus nunc porttitor,
+           sed egestas dolor dictum. Suspendisse sit amet</p>
+           <br/>
+        </div>
+      </div>
+      <div class="col-md-1">
+      </div>
     </div>
-    <div class="col-md-4 ">
-      <p>About Menu</p>
-      <p>We are a menu a little team of 7 members.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies,
-       leo vel finibus elementum, tellus lorem molestie metus, ut sagittis
-       justo augue et est. Aenean vestibulum sapien dapibus nunc porttitor,
-       sed egestas dolor dictum. Suspendisse sit amet<p/>
-    </div>
-  </div>
-</div>
+
+
 
     <div class="row-tomato">
       <div class="col-md-12">
-        <p id="sub">Get our daily Food items delivered to your e-mail</p>
+        <p id="sub">Get our daily Food items delivered to your email</p>
         <form class="form-inline" >
           <div class="form-group">
             <div class="col-lg-1">
@@ -168,17 +177,25 @@
           <button type="submit" class="btn-btn-default">Subscribe</button>
         </form>
     </div></div>
-    <div class="row">
-    <div class="col-md-12-footer">
-         <img id="logfoot" src="assets/footerlogos/logo_white.png" alt="logo">
-         <p class="footermenu">MENU</p><br>
-         <p class="footermenus">That's what we are</p><br>
-         <img class="icons" src="assets/footerlogos/facebook.png" alt="facebook">
-         <img class="icons" src="assets/footerlogos/pinterest.png" alt="pinterest">
-         <img class="icons"src="assets/footerlogos/twitter.png" alt="twitter">
-         <p class="footermenuss">2016 Menu restaurant</p>
-      </div>
-    </div>
+    <div class="row" id="footer">
+
+          <div class="col-md-4"></div>
+          <div class="col-md-4" class="footermenu">
+            <img id="logfoot" src="assets/footerlogos/logo_white.png" alt="logo" class="footermenu">
+            <p class="footermenu">MENU</p><br>
+            <p class="footermenu">That's what we are</p><br>
+            <div class="logos">
+              <img class="icons" src="assets/footerlogos/facebook.png" alt="facebook">
+              <img class="icons" src="assets/footerlogos/pinterest.png" alt="pinterest">
+              <img class="icons"src="assets/footerlogos/twitter.png" alt="twitter">
+            </div>
+
+            <p class="footermenu">2016 Menu restaurant</p>
+
+          </div>
+          <div class="col-md-4"></div>
+
+        </div>
 
 
   </body>
