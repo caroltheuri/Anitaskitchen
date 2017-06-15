@@ -12,6 +12,6 @@
 * _Bootstrap_
 ## Here is the design
 ![Design](core.jpg)
-[Visit my Github pages](caroltheuri.github.io)
+[Visit my Github pages](https://caroltheuri.github.io/Anitaskitchen/)
 ##### Copyright and License Information
  [MIT LICENSE](license)
