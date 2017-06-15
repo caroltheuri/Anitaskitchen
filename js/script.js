@@ -1,7 +1,18 @@
-function on() {
-    document.getElementById("overlay").style.display = "block";
+$(document).ready(function() {
+  $("form").submit(function(event) {
+    event.preventDefault();
+  var inputtedemail=$("input#email").val();
+    var result=(inputtedemail);
+      alert("Hey pal you have successfully subscribed to our products with this email:" + result
+       +" " + "Welcome" );
+  });
+});
+  /* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
 }
 
-function off() {
-    document.getElementById("overlay").style.display = "none";
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
 }
