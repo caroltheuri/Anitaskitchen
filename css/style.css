@@ -66,7 +66,7 @@
 #open{
   color:white;
   font-size: 60px;
-  
+
 
 }
 #party{
@@ -87,7 +87,7 @@
   color: white;
   text-align:center;
   font-family: sans-serif;
-  padding-top: 100px;
+  padding-top: 0px;
   padding-right: 10px;
   margin-bottom: 50px;
 }
@@ -105,13 +105,15 @@ background-color: #F15A29;
 .footermenu{
   text-align: center;
   color: white;
+
 }
 .logos{
   text-align: center;
   padding-bottom: 20px;
+
 }
 #logfoot{
-margin-left: 100px;
+margin-left: 180px;
 margin-top: 50px;}
 /*padding-bottom: 0px;*/
 /*margin-top: 40px;
@@ -257,7 +259,7 @@ opacity: 0.5;
   padding: 6px 80px;
 }
 #email{
-  color: white;
+  color: black;
 }
 .btn-btn-default-btn-lg{
   border-color: #F15A29;
