@@ -344,3 +344,8 @@ color: white;
 #menu {
   margin: 10px;
 }
+#boxmodel{
+  border-style: groove;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
