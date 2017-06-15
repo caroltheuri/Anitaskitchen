@@ -1,134 +1,119 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="js/script.js"></script>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
-  <script src="js/script.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-101092200-1', 'auto');
+      ga('send', 'pageview');
+   </script>
+    <title>Anita's kitchen</title>
 
-    ga('create', 'UA-101092200-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <title>Anita's kitchen</title>
-
-</head>
-
-<body>
-  <div class="header" style=background-image:url( 'assets/backgrounds/landing.jpg')>
-    <div id="logo">
-      <img src="assets/logoBig.png" alt="logo" text-centre;>
-    </div>
-
-    <!-- The overlay -->
-    <div id="myNav" class="overlay">
-
-      <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-      <!-- Overlay content -->
-      <div class="overlay-content">
-        <a href="#">Contacts</a>
-        <a href="#">Events</a>
-        <a href="#">Menu</a>
-      </div>
-
-    </div>
-
-    <!-- Use any element to open/show the overlay navigation menu -->
-    <span id="open" style="cursor:pointer" onclick="openNav()">&#9776;</span>
-    <h2>We Provide The Best Food At<br> The Right Price</h2>
-    <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-  </div>
-
-
-  <div class="row">
-    <div class="col-md-3">
-      <div class="col-md-12" id="happy">
-
-        <h3>Happy Hour</h3></div>
-      <div class="col-md-12" id="party">
-        <h3>Party Time</h3></div>
-    </div>
-    <div class="col-md-3" id="breakfast">
-      <p class="top"><em>Breakfast</em></p>
-    </div>
-    <div class="col-md-3" id="lunch">
-      <p class="top"><em>lunch</em></p>
-    </div>
-    <div class="col-md-3" id="dinner">
-      <p class="top"><em>Dinner</em></p>
-    </div>
-  </div>
-  <div class="container-fastfoods">
-    <div class="row">
-      <div class="col-md-6 " id="imgbox">
-        <img src="assets/fastFood1.jpg" alt="fastfood1">
-        <img src="assets/fastFood2.jpg" alt="fastfood2">
-      </div>
-
-      <div class="col-md-6">
-        <h1>Fast Food</h1>
-        <h4><b>You will love our delicious Fast food</b></h4>
-        <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus, ut sagittis justo augue et est. Aenean vestibulum sapien dapibus nunc porttitor, sed egestas dolor dictum. Suspendisse
-          sit amet est eget nisi blandit facilisis placerat ac ipsum. Morbi vestibulum nulla enim, eu rutrum dui ornare quis.
-        </p>
-        <div class="btn-group" role="group" aria-label="Button">
-          <button type="button" class="btn-btn-default-btn-lg"><span class="gallery">View Gallery<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></span>
-
-            </button>
-
-
-
+  </head>
+  <body>
+      <div class="header" style=background-image:url('assets/backgrounds/landing.jpg')>
+        <div id="logo">
+          <img src="assets/logoBig.png" alt="logo" text-centre;>
         </div>
+
+        <!-- The overlay -->
+<div id="myNav" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">Contacts</a>
+    <a href="#">Events</a>
+    <a href="#">Menu</a>
+  </div>
+</div>
+<!-- Use any element to open/show the overlay navigation menu -->
+<span id="open" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+  <h2>We Provide The Best Food At<br> The Right Price</h2>
+        <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <h1 id="drinks"><b>Drinks</b></h1>
-        <h4 style="text-align:right;"><b>We also produce delicious drinks</b></h4>
-        <p id="drink">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus, ut sagittis justo augue et est. Aenean vestibulum sapien dapibus nunc porttitor, sed egestas dolor dictum. Suspendisse
-          sit amet est eget nisi blandit facilisis placerat ac ipsum. Morbi vestibulum nulla enim, eu rutrum dui ornare quis.</p>
-        <div class="btn-group btn-group-left" role="group" aria-label="Button">
-          <button type="button" class="btn-btn-default-btn-lg"><span class="gallery2">
+      <div class="row">
+        <div class="col-md-3">
+         <div class="col-md-12" id="happy" >
+
+           <h3>Happy Hour</h3></div>
+         <div class="col-md-12" id="party" ><h3>Party Time</h3></div>
+        </div>
+        <div class="col-md-3" id="breakfast">
+            <p class="top"><em>Breakfast</em></p>
+        </div>
+        <div class="col-md-3" id="lunch">
+           <p class="top"><em>lunch</em></p>
+        </div>
+        <div class="col-md-3" id="dinner">
+           <p class="top"><em>Dinner</em></p>
+        </div>
+        </div>
+    <div class="container-fastfoods">
+      <div class="row">
+        <div class="col-md-6 " id="imgbox">
+           <img src="assets/fastFood1.jpg" alt="fastfood1">
+           <img src="assets/fastFood2.jpg" alt="fastfood2">
+        </div>
+
+        <div class="col-md-6">
+          <h1>Fast Food</h1>
+        <h4><b>You will love our delicious Fast food</b></h4>
+          <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Sed ultricies, leo vel finibus elementum, tellus lorem molestie
+             metus, ut sagittis justo augue et est. Aenean vestibulum sapien
+             dapibus nunc porttitor, sed egestas dolor dictum.
+             Suspendisse sit amet est eget nisi blandit facilisis placerat ac
+             ipsum. Morbi vestibulum nulla enim, eu rutrum dui ornare quis.
+          </p>
+          <div class="btn-group" role="group" aria-label="Button">
+            <button type="button" class="btn-btn-default-btn-lg"><span class="gallery">View Gallery<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></span>
+            </button>
+          </div>
+        </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <h1 id="drinks"><b>Drinks</b></h1>
+              <h4 style="text-align:right;"><b>We also produce delicious drinks</b></h4>
+              <p id="drink">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Sed ultricies, leo vel finibus elementum, tellus lorem molestie
+                 metus, ut sagittis justo augue et est. Aenean vestibulum sapien
+                 dapibus nunc porttitor, sed egestas dolor dictum.
+                 Suspendisse sit amet est eget nisi blandit facilisis placerat ac
+                 ipsum. Morbi vestibulum nulla enim, eu rutrum dui ornare quis.</p>
+              <div class="btn-group btn-group-left" role="group" aria-label="Button" >
+                <button type="button" class="btn-btn-default-btn-lg"><span class="gallery">
                   View Gallery<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></span></div>
             </div>
             <div class="col-md-6" id="imgbox" >
               <img src="assets/drink1.jpg" alt="drink1">
               <img src="assets/drink2.jpg" alt="drink2">
-
             </div>
-
           </div>
         </div>
    <div class="container-tabs">
      <div class="row">
        <div class="jumbotron" id="float">
          <nav class="navbar navbar-static text-center;">
-
-            <ul class="nav nav-tabs">
+           <ul class="nav nav-tabs">
               <li class="active"><a href="#Home">Fast foods</a></li>
               <li><a data-toggle="tab" href="#">Drinks</a></li>
               <li><a data-toggle="tab" href="#">Chicken</a></li>
               <li><a data-toggle="tab" href="#">Rice</a></li>
-
-
             </ul>
             <div class="tab-content">
               <div id="home" class="tab-pane fade in active">
@@ -138,14 +123,11 @@
                 <img src="assets/fastfood/chickenPizza.jpg" alt="chickenpizza">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
               </div>
-
             </div>
           </nav>
          </div>
-
-     </div>
-
-     </div>
+       </div>
+   </div>
 
   <div class="container">
     <div class="row-customers">
@@ -177,9 +159,6 @@
       <div class="col-md-1">
       </div>
     </div>
-
-
-
     <div class="row-tomato">
       <div class="col-md-12">
         <p id="sub">Get our daily Food items delivered to your email</p>
@@ -190,30 +169,22 @@
             </div>
           </div>
           <button type="submit" class="btn-btn-default">Subscribe</button>
-          </form>
-        </div>
-      </div>
-      <div class="row" id="footer">
-
-        <div class="col-md-4"></div>
-        <div class="col-md-4" class="footermenu">
-          <img id="logfoot" src="assets/footerlogos/logo_white.png" alt="logo" class="footermenu">
-          <p class="footermenu">MENU</p><br>
-          <p class="footermenu">That's what we are</p><br>
-          <div class="logos">
-            <img class="icons" src="assets/footerlogos/facebook.png" alt="facebook">
-            <img class="icons" src="assets/footerlogos/pinterest.png" alt="pinterest">
-            <img class="icons" src="assets/footerlogos/twitter.png" alt="twitter">
+        </form>
+    </div></div>
+    <div class="row" id="footer">
+      <div class="col-md-4"></div>
+          <div class="col-md-4" class="footermenu">
+            <img id="logfoot" src="assets/footerlogos/logo_white.png" alt="logo" class="footermenu">
+            <p class="footermenu" >MENU</p><br>
+            <p class="footermenu">That's what we are</p><br>
+            <div class="logos">
+              <img class="icons" src="assets/footerlogos/facebook.png" alt="facebook">
+              <img class="icons" src="assets/footerlogos/pinterest.png" alt="pinterest">
+              <img class="icons"src="assets/footerlogos/twitter.png" alt="twitter">
+            </div>
+            <p class="footermenu">2016 Menu restaurant</p>
           </div>
-
-          <p class="footermenu">2016 Menu restaurant</p>
-
+          <div class="col-md-4"></div>
         </div>
-        <div class="col-md-4"></div>
-
-      </div>
-
-
-</body>
-
+      </body>
 </html>
