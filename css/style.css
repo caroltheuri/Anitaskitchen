@@ -1,121 +1,152 @@
-.header{
-  width:100%;
-  height:600px;
-
+.header {
+  width: 100%;
+  height: 600px;
 }
-#logo{
-  margin:0 auto;
+
+#logo {
+  margin: 0 auto;
   text-align: center;
-  width:50%
-  margin-left: 500px;
+  width: 50% margin-left: 500px;
   padding-top: 100px;
 }
+
+
 /* The Overlay (background) */
+
 .overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */
-    height: 100%;
-    width: 0;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s;
-    background-color: #F15A29/* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  background-color: #F15A29/* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
+
 
 /* Position the content inside the overlay */
+
 .overlay-content {
-    position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  position: relative;
+  top: 25%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: center;
+  /* Centered text/links */
+  margin-top: 30px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
+
 /* The navigation links inside the overlay */
+
 .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: black;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s;
+  /* Transition effects on hover (color) */
 }
+
 
 /* When you mouse over the navigation links, change their color */
 
 
 /* Position the close button (top right corner) */
+
 .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
+
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+
 @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
-#open{
-  color:white;
+
+#open {
+  color: white;
   font-size: 60px;
-
-
 }
-#party{
-  background-color:#F15A29;
- width:105%;
- padding-top:25px;
- padding-bottom:25px;
- text-align: center;
-}
-#happy{
-  width:105%;
-  padding-top:25px;
-  padding-bottom:25px;
-  background-color:grey;
+
+#party {
+  background-color: #F15A29;
+  width: 105%;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: center;
 }
-.header h2{
+
+#happy {
+  width: 105%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: grey;
+  text-align: center;
+}
+
+.header h2 {
   color: white;
-  text-align:center;
+  text-align: center;
   font-family: sans-serif;
   padding-top: 0px;
   padding-right: 10px;
   margin-bottom: 50px;
 }
-.row-border{
-  margin:50px;
-  border:2px solid grey;
+
+.row-border {
+  margin: 50px;
+  border: 2px solid grey;
   border-style: double;
-  padding:50px;
+  padding: 50px;
   color: #F15A29;
-  height:300px;
+  height: 300px;
 }
-#footer{
-background-color: #F15A29;
+
+#footer {
+  background-color: #F15A29;
 }
-.footermenu{
+
+.footermenu {
   text-align: center;
   color: white;
-
 }
-.logos{
+
+.logos {
   text-align: center;
   padding-bottom: 20px;
-
 }
-#logfoot{
-margin-left: 180px;
-margin-top: 50px;}
+
+#logfoot {
+  margin-left: 180px;
+  margin-top: 50px;
+}
+
+
 /*padding-bottom: 0px;*/
+
+
 /*margin-top: 40px;
 
 .footermenu{
@@ -125,6 +156,8 @@ margin-top: 50px;}
 padding-right: 40px;
 float:right;
 margin: 60px;*/
+
+
 /*}
 .icons{
   text-align:center;
@@ -141,147 +174,173 @@ text-align: center;
 color: white;
 }*/
 
-#breakfast{
-  background-image:url('../assets/foodtop/breakfast.jpg');
-  height:210px;
-  }
-#breakfast:hover{
-  opacity:0.5;
+#breakfast {
+  background-image: url('../assets/foodtop/breakfast.jpg');
+  height: 210px;
+}
+
+#breakfast:hover {
+  opacity: 0.5;
   filter: alpha(opacity=50);
-
-
-  }
-#lunch{
-  background-image:url('../assets/foodtop/lunch.jpg');
-  height:210px;
 }
-#lunch:hover{
-  opacity:0.6;
+
+#lunch {
+  background-image: url('../assets/foodtop/lunch.jpg');
+  height: 210px;
+}
+
+#lunch:hover {
+  opacity: 0.6;
   filter: alpha(opacity=50);
-
-  }
-
-#dinner{
-  background-image:url('../assets/foodtop/dinner2.jpg');
-  height:210px;
 }
-#dinner:hover{
-  opacity:0.5;
+
+#dinner {
+  background-image: url('../assets/foodtop/dinner2.jpg');
+  height: 210px;
+}
+
+#dinner:hover {
+  opacity: 0.5;
   filter: alpha(opacity=50);
-
-  }
-
-.top{
-color:white;
-text-align: center;
-font-size: 30px;
-margin-top:70px;
 }
-.top:hover{
-  color:black;
- font-weight: bolder;
- opacity: 5;
+
+.top {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 70px;
 }
-.container-fastfoods{
+
+.top:hover {
+  color: black;
+  font-weight: bolder;
+  opacity: 5;
+}
+
+.container-fastfoods {
   margin-bottom: 50px;
-  margin-top:50px;
+  margin-top: 50px;
   margin-left: 50px;
   padding-left: 20px;
 }
-#food{
+
+#food {
   color: black;
   padding-top: 2px;
-
 }
-#lorem{
+
+#lorem {
   font-size: 150%;
   font-family: sans-serif;
-  }
-.gallery{
+}
+
+.gallery {
   color: #F15A29;
-  }
-#drinks{
+}
+
+#drinks {
   text-align: right;
 }
-#drink{
+
+#drink {
   font-size: 150%;
   font-family: sans-serif;
   text-align: right;
 }
-.gallery2{
-  text-align:center;
+
+#imgbox {
+  border-style: groove;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 0px;
+  width: 50%;
+}
+
+.gallery2 {
+  text-align: center;
   color: #F15A29;
-    border: #F15A29;
+  border: #F15A29;
 }
 
-.container-tabs{
-  background-image:url('../assets/backgrounds/foodsBg.jpg');
-  height:450px;
-
+.container-tabs {
+  background-image: url('../assets/backgrounds/foodsBg.jpg');
+  height: 450px;
 }
-#float{
 
-  height:100px;
+#float {
+  height: 100px;
 }
-.jumbotron{
+
+.jumbotron {
   padding-left: 100px;
   margin-top: 70px;
   padding-top: 30px;
   padding-bottom: 290px;
   padding-right: 150px;
 }
-.row-tomato{
-background-image:url('../assets/backgrounds/subscribe.jpg');
-height: 300px;
+
+.row-tomato {
+  background-image: url('../assets/backgrounds/subscribe.jpg');
+  height: 300px;
 }
-#sub{
+
+#sub {
   color: white;
   text-align: center;
   font-size: 200%;
   padding-bottom: 0px;
   padding-top: 50px;
 }
-.form-group{
-margin-left: 310px;
-margin-top: 2px;
-text-align: left;
-opacity: 0.5;
+
+.form-group {
+  margin-left: 310px;
+  margin-top: 2px;
+  text-align: left;
+  opacity: 0.5;
 }
-.form-control{
-    padding: 7px 190px;
-    text-align: left;
-    padding-left: 5px;
+
+.form-control {
+  padding: 7px 190px;
+  text-align: left;
+  padding-left: 5px;
 }
-.btn-btn-default{
+
+.btn-btn-default {
   color: white;
   background-color: #F15A29;
   border: none;
   padding: 6px 80px;
 }
-#email{
+
+#email {
   color: black;
 }
-.btn-btn-default-btn-lg{
+
+.btn-btn-default-btn-lg {
   border-color: #F15A29;
   background-color: white;
   padding: 10px 50px;
   font-size: 120%;
 }
 
-#title{
-  color:#F15A29;
+#title {
+  color: #F15A29;
   text-align: center;
   font-size: 30px;
 }
-.row-customers{
-margin: 50px;
-height:250px;
-box-shadow: 10px 10px 10px 10px #888888;
+
+.row-customers {
+  margin: 50px;
+  height: 250px;
+  box-shadow: 10px 10px 10px 10px #888888;
 }
-#our{
+
+#our {
   border-right: 1px solid grey;
   margin: 10px;
 }
-#menu{
-margin: 10px;
+
+#menu {
+  margin: 10px;
 }
